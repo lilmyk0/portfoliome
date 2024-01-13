@@ -1,0 +1,104 @@
+*{
+    overflow-x:hidden;
+    padding:0;
+    margin:0;
+
+}
+body{
+    background-color: rgb(236, 236, 236);
+}
+:root{
+    --fontUI:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#container_contact{
+    width: 50%;
+    transform: translate(60%, 110%);
+}
+#container_contact h1{
+    font-family:sans-serif;
+    letter-spacing: 1px;
+}
+#container_contact h4{
+    font-family: var(--fontUI);
+    font-size: 13px;
+    margin-top:20px;
+    color:rgb(56, 56, 56)
+}
+.mail{
+    left:27%;
+    position: absolute;
+    top:60%;
+    background: white;
+    border-radius: 30px;
+    border:1px solid rgb(250, 249, 249);
+    width:20%;
+    height:10%;
+    padding-left: 30px;
+    padding-top: 10px;
+
+}
+.mail h5{
+    top:0;
+    position:relative;
+    font-family: var(--fontUI);
+    margin-left: 5em;
+    margin-top:-2.3rem ;
+}
+.mail a{
+    margin-left: 3.9rem;
+    text-decoration: none;
+    color:rgb(0, 30, 128);;
+    font-family: var(--fontUI);
+}
+#svg_mail{
+    background:rgb(114, 179, 253);
+    border-bottom-left-radius: 25px;;
+    border-top-left-radius: 25px;;
+    border-bottom-right-radius: 25px;;
+    
+}
+form{
+    width:30%;
+    height:40%;border:1px solid rgb(39, 39, 39);
+    display: flex;
+    transform: translate(150%);
+    flex-direction: column;
+    padding:20px 40px 20px;
+    gap:3px;
+}
+form input{
+    height:30px;
+    margin-top:10px;
+    background: #0468ff23;
+    border:none;
+    padding-left: 20px;
+}
+input:focus{
+    border:1px solid #0468ffbb;
+    border-radius: none;
+}
+
+form h1{
+    font-size: 13px;
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+;  color:rgba(48, 47, 47, 0.801);
+
+}
+#btn{
+    padding:10px 10px 10px;
+    display: inline;
+    width:30%;
+    margin-top: 20px;
+    background-color:  #0946af;
+    color:white;
+    border-radius: 25px;
+    border:none;
+    transition: .2s;
+}
+#btn:hover{
+    color:black;
+    background: white;
+    bordeR:1px solid  #021331;
+}
